@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: 'Vue Admin Template',
+  title: 'glodstrong.github.io',
 
   /**
    * @type {boolean} true | false
