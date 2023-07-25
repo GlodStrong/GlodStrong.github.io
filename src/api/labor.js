@@ -2,7 +2,7 @@ import request from '@/utils/request'
 
 export function getList(params) {
   return request({
-    url: '/vue-admin-template/labor/list',
+    url: '/glodstrong.github.io/labor/list',
     method: 'get',
     params
   })

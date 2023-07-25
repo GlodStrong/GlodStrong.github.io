@@ -2,7 +2,7 @@ import request from '@/utils/request'
 
 export function getList(params) {
   return request({
-    url: '/vue-admin-template/schedule/list',
+    url: '/glodstrong.github.io/schedule/list',
     method: 'get',
     params
   })
@@ -10,7 +10,7 @@ export function getList(params) {
 
 export function getGrpList(params) {
   return request({
-    url: '/vue-admin-template/schedule/grpList',
+    url: '/glodstrong.github.io/schedule/grpList',
     method: 'post',
     params
   })

@@ -29,7 +29,7 @@ const data = Mock.mock({
 
 module.exports = [
   {
-    url: '/vue-admin-template/labor/list',
+    url: '/glodstrong.github.io/labor/list',
     type: 'get',
     response: config => {
       const labors = data.labors

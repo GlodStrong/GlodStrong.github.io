@@ -22,7 +22,7 @@ const data = Mock.mock({
 
 module.exports = [
   {
-    url: '/vue-admin-template/schedule/list',
+    url: '/glodstrong.github.io/schedule/list',
     type: 'get',
     response: config => {
       console.log('config1 >>>', config)
@@ -37,7 +37,7 @@ module.exports = [
     }
   },
   {
-    url: '/vue-admin-template/schedule/grpList',
+    url: '/glodstrong.github.io/schedule/grpList',
     type: 'post',
     response: config => {
       console.log('config2 >>>', config)

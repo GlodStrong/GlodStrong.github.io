@@ -16,7 +16,7 @@ const data = Mock.mock({
 
 module.exports = [
   {
-    url: '/vue-admin-template/project/list',
+    url: '/glodstrong.github.io/project/list',
     type: 'get',
     response: config => {
       const items = data.items

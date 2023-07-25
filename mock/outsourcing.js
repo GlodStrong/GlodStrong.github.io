@@ -34,7 +34,7 @@ const data = Mock.mock({
 
 module.exports = [
   {
-    url: '/vue-admin-template/outsourcing/list',
+    url: '/glodstrong.github.io/outsourcing/list',
     type: 'get',
     response: config => {
       const outsourcings = data.outsourcings

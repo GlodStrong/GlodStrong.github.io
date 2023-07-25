@@ -2,7 +2,7 @@ import request from '@/utils/request'
 
 export function getCompanyList(params) {
   return request({
-    url: '/vue-admin-template/companies/list',
+    url: '/glodstrong.github.io/companies/list',
     method: 'get',
     params
   })
@@ -10,7 +10,7 @@ export function getCompanyList(params) {
 
 export function getPeopleList(params) {
   return request({
-    url: '/vue-admin-template/people/list',
+    url: '/glodstrong.github.io/people/list',
     method: 'get',
     params
   })
