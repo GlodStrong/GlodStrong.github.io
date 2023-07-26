@@ -13,7 +13,7 @@ const data = Mock.mock({
     study: '@integer(0, 24)',
     game: '@integer(0, 24)',
     rest: '@integer(0, 24)',
-    pie_date: '@DATETIME("2023-06-dd")',
+    pie_date: '@DATETIME("2023-07-dd")',
     // graphics: { 'pie_date': '@DATETIME("2023-06-dd")', 'work': '@integer(0, 24)', 'study': '@integer(0, 24)', 'game': '@integer(0, 24)', 'rest': '@integer(0, 24)' },
     // work_hour: '@integer(0, 24)',
     importance: '@integer(0, 5)'

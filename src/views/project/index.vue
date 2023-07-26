@@ -39,11 +39,12 @@
     <el-card>
       <el-table
         v-loading="listLoading"
-        :data="list"
         element-loading-text="Loading"
         border
         fit
         highlight-current-row
+        :data="list"
+        @row-click="onRowClick"
       >
         <el-table-column align="center" label="ID" width="50">
           <template slot-scope="scope">
@@ -151,6 +152,12 @@ export default {
     /* 跳转到添加日程的新建详细画面 */
     toNew() {
       console.log(this.$router)
+      this.$router.push({ name: 'pjtInformation' })
+    },
+    /* 点击行事件 */
+    onRowClick(row, column, event) {
+      console.log('onRowClick >>>', row)
+      // 暂时直接跳转，后续再通过ID，查询详细数据
       this.$router.push({ name: 'pjtInformation' })
     }
   }
