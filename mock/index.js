@@ -5,18 +5,20 @@ const user = require('./user')
 const table = require('./table')
 const schedule = require('./schedule')
 const project = require('./project')
+const company = require('./company')
 const labor = require('./labor')
 const outsourcing = require('./outsourcing')
-const company = require('./company')
+const materials = require('./materials')
 
 const mocks = [
   ...user,
   ...table,
   ...schedule,
   ...project,
+  ...company,
   ...labor,
   ...outsourcing,
-  ...company
+  ...materials
 ]
 
 // for front mock
